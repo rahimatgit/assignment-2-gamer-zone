@@ -67,7 +67,7 @@ body{
     width: 100%;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
-    height: 70vh;
+    height: 90vh;
 }
 .banner-detail{
     width: 50%;
@@ -76,14 +76,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 .detail{
-    width: 70%;   
+    width: 60%;   
 }
 .detail h2{
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
 }
 .detail h1{
     font-size: 6rem;
@@ -92,7 +93,7 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
 }
 .detail p{
     font-size: 1.25rem;
@@ -130,9 +131,36 @@ body{
 Responsive for SMALL device
 ..................  */
 @media screen and (max-width:576px) {
-    .nav-container, .others{
+    .nav-container, .others, .banner-container{
         flex-direction: column;
         margin-top: 20px;
+    }
+    .banner-detail, .banner-img-section{
+        width: 100%;
+    }
+    .detail{
+       margin-top: 20px;
+       margin-bottom: 50px;
+    }
+    .detail h2{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .detail h1{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .detail p{
+        font-size: 0.75rem;
+    }
+    .btn-primary, .btn-secondary{
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+        border-radius: 1.5rem;
+    }
+    .banner-img{
+        width: 80%;
+        margin-left: 50px;
     }
 }
 
@@ -146,4 +174,29 @@ Responsive for MEDIUM device
     .gamer{
         margin: 20px 0;
     } 
+    .detail{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .detail{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-left: 100px;
+     }
+     .detail h2{
+         font-size: 1.5rem;
+         margin-bottom: 1rem;
+     }
+     .detail h1{
+         font-size: 3rem;
+         margin-bottom: 1rem;
+     }
+     .detail p{
+         font-size: 0.75rem;
+     }
+     .btn-primary, .btn-secondary{
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+        border-radius: 1.5rem;
+    }
 }
