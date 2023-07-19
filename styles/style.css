@@ -198,10 +198,12 @@ body{
 Responsive for SMALL device
 ..................  */
 @media screen and (max-width:576px) {
+    /* navbar */
     .nav-container, .others, .banner-container{
         flex-direction: column;
         margin-top: 20px;
     }
+    /* banner */
     .banner-detail, .banner-img-section{
         width: 100%;
     }
@@ -229,18 +231,32 @@ Responsive for SMALL device
         width: 80%;
         margin-left: 50px;
     }
+    /* online games */
+    .online-games-container{
+        margin-top: 400px;
+    }
+    .cards-container{
+        grid-template-columns: 1fr;
+    }
+    .card p{
+        font-size: 16px;
+        text-align: center;
+        padding: 0 5px;
+    }
 }
 
 /*................
 Responsive for MEDIUM device
 ..................*/
 @media screen and (min-width:576px) and (max-width:991px) {
+    /* navbar */
     .nav-container{
         flex-direction: column;
     }
     .gamer{
         margin: 20px 0;
     } 
+    /* banner */
     .detail{
         width: 100%;
         padding-top: 100px;
@@ -265,5 +281,9 @@ Responsive for MEDIUM device
         font-size: 0.8rem;
         padding: 0.5rem 1rem;
         border-radius: 1.5rem;
+    }
+    /* online games */
+    .cards-container{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
