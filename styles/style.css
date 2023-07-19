@@ -127,6 +127,73 @@ body{
     height: 100%;
 }
 
+/* online games styles */
+.online-games-container{
+    width: 80%;
+    margin: 100px auto 0;
+    max-height: 60vh;
+}
+.online-games-title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-games-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    text-align: center;
+    margin: 20px 0;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.card p{
+    margin-top: 20px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-img{
+    width: 100%;
+}
+.card{
+    position: relative;
+}
+.card-hover{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+}
+.card-hover p{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card:hover .card-hover{
+    visibility: unset;
+}
+.card:hover .card-img{
+    opacity: 0.35;
+}
+
+
+
 /*................
 Responsive for SMALL device
 ..................  */
