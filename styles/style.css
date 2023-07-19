@@ -61,3 +61,13 @@ body{
     height: 24px;
     color: #000000;
 }
+
+/*................
+Responsive for SMALL device
+..................  */
+@media screen and (max-width:576px) {
+    .nav-container, .others{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
