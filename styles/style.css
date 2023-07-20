@@ -51,10 +51,10 @@ body{
     gap: 5px;
 }
 .fa-youtube{
-    width: 32px;
-    height: 24px;
+    /* width: 32px;
+    height: 24px; */
     color: red;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .fa-tiktok{
     width: 24px;
@@ -279,6 +279,64 @@ body{
     border: 2px solid palevioletred;
     border-radius: 40px;
     color: palevioletred;
+}
+
+/* footer section */
+.footer-container{
+    width: 100%;
+    max-height: 60vh;
+    background: #0B0223;
+}
+.footer-section{
+    width: 50%;
+    margin: auto;
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.footer-title h3{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-detail{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.footer-detail p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-icons{
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.footer-icons button{
+    margin: 10px;
+    padding: 3px;
+    /* background: none;
+    border: none; */
+}
+.footer-text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-text span{
+    margin-right: 15px;
+}
+.footer{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 30px;
 }
 /*................
 Responsive for SMALL device
