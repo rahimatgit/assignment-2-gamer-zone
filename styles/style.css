@@ -334,9 +334,11 @@ body{
     margin-right: 15px;
 }
 .footer{
-    text-align: center;
     color: rgba(255, 255, 255, 0.60);
-    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 50px 0;
 }
 /*................
 Responsive for SMALL device
@@ -434,6 +436,39 @@ Responsive for SMALL device
         margin-left: 0px;
         margin-top: 0px;
     }
+    /* footer section */
+    .footer-container{
+        max-height: none;
+    }
+    .footer-section{
+        width: 100%;
+    } 
+    .footer-detail{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 50px;
+    }
+    .footer-detail p{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 50px 100px;       
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        margin: 0 50px; 
+    }
+    .footer-text span{
+        margin-top: 20px;
+    }
+    .footer{
+        font-size: 10px;
+    }
 }
 
 /*................
@@ -505,5 +540,20 @@ Responsive for MEDIUM device
     #item-6, #item-7, #item-8, #item-9{
         margin-left: 0px;
         margin-top: 0px;
+    }
+    /* footer section */
+    .footer-container{
+        max-height: none;
+    }
+    .footer-detail{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 50px;
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-text span{
+        margin: 10px;
     }
 }
