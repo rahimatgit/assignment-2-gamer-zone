@@ -262,13 +262,16 @@ body{
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 .game{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 5px;
+    
+    background: none;
+    border-radius: 40px;
+    /* border: none; */
     /* width: 80%; */
 }
 #item-6, #item-7, #item-8, #item-9{
@@ -423,7 +426,7 @@ Responsive for SMALL device
     }
     .games{
         grid-template-columns: repeat(3, 1fr);
-        width: 100%;
+        width: 90%;
     }
     .game img{
         width: 25px;
@@ -535,7 +538,7 @@ Responsive for MEDIUM device
     }
     .games{
         grid-template-columns: repeat(3, 1fr);
-        width: 100%;
+        width: 90%;
     }
     #item-6, #item-7, #item-8, #item-9{
         margin-left: 0px;
