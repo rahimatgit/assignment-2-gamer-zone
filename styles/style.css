@@ -236,8 +236,48 @@ body{
     bottom: -20%;
     right: 65%;
 }
-
-
+/* different games section */
+/* .item-1{ grid-area: 1;}
+.item-2{ grid-area: 2;}
+.item-3{ grid-area: 3;}
+.item-4{ grid-area: 4;}
+.item-5{ grid-area: 5;}
+.item-6{ grid-area: 6;}
+.item-7{ grid-area: 7;}
+.item-8{ grid-area: 8;}
+.item-9{ grid-area: 9;} */
+.games-container{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    max-height: 70vh;
+    margin-top: 200px;
+    padding: 100px 0;
+    
+    /* grid-template-areas: 
+    '1 2 3 4 5'
+     '6 7 8 9'; */
+}
+.games{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.game{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* width: 80%; */
+}
+#item-6, #item-7, #item-8, #item-9{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.game:hover {
+    border: 2px solid palevioletred;
+    border-radius: 40px;
+    color: palevioletred;
+}
 /*................
 Responsive for SMALL device
 ..................  */
