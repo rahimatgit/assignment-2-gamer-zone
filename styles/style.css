@@ -194,7 +194,7 @@ body{
 /* play section styles */
 .play-container{
     width: 70%;
-    margin: 0 auto;
+    margin:  auto ;
     max-height: 80vh;
     display: flex;
 }
@@ -243,7 +243,7 @@ Responsive for SMALL device
 ..................  */
 @media screen and (max-width:576px) {
     /* navbar */
-    .nav-container, .others, .banner-container{
+    .nav-container, .others, .banner-container, .play-container{
         flex-direction: column;
         margin-top: 20px;
     }
@@ -287,6 +287,33 @@ Responsive for SMALL device
         text-align: center;
         padding: 0 5px;
     }
+    /* play section */
+    .play-container{
+        margin-top: 1850px;
+    }
+    .play-text{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .play-text h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .play-text p{
+        font-size: 16px;  
+        text-align: center;
+    }
+    .play-img-section{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .play-img-1{
+        width: 100%;
+    }
+    .play-img-2{
+        width: 45%;
+    }
 }
 
 /*................
@@ -294,7 +321,7 @@ Responsive for MEDIUM device
 ..................*/
 @media screen and (min-width:576px) and (max-width:991px) {
     /* navbar */
-    .nav-container{
+    .nav-container, .play-container{
         flex-direction: column;
     }
     .gamer{
@@ -329,5 +356,21 @@ Responsive for MEDIUM device
     /* online games */
     .cards-container{
         grid-template-columns: repeat(2, 1fr);
+    }
+    /* play section */
+    .play-container{
+        margin-top: 900px;
+    }
+    .play-text{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .play-img-section{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .play-img-2{
+        width: 45%;
     }
 }
