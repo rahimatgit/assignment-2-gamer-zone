@@ -189,7 +189,7 @@ body{
     visibility: unset;
 }
 .card:hover .card-img{
-    opacity: 0.35;
+    opacity: 0.5;
 }
 /* play section styles */
 .play-container{
