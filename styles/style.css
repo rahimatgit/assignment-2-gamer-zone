@@ -51,10 +51,7 @@ body{
     gap: 5px;
 }
 .fa-youtube{
-    /* width: 32px;
-    height: 24px; */
     color: red;
-    /* margin-left: 10px; */
 }
 .fa-tiktok{
     width: 24px;
@@ -236,33 +233,17 @@ body{
     bottom: -20%;
     right: 65%;
 }
-/* different games section */
-/* .item-1{ grid-area: 1;}
-.item-2{ grid-area: 2;}
-.item-3{ grid-area: 3;}
-.item-4{ grid-area: 4;}
-.item-5{ grid-area: 5;}
-.item-6{ grid-area: 6;}
-.item-7{ grid-area: 7;}
-.item-8{ grid-area: 8;}
-.item-9{ grid-area: 9;} */
+
 .games-container{
     width: 100%;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     max-height: 70vh;
     margin-top: 200px;
     padding: 100px 0;
-    
-    /* grid-template-areas: 
-    '1 2 3 4 5'
-     '6 7 8 9'; */
 }
 .games{
     width: 80%;
     margin: auto;
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px; */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -274,13 +255,9 @@ body{
     background: none;
     border-radius: 40px;
     width: 18%;
-    
-    /* border: none; */
-    /* width: 80%; */
 }
 #item-6{
     margin-left: 100px;
-    /* margin-top: 30px; */
 }
 .game:hover {
     border: 2px solid palevioletred;
@@ -291,14 +268,12 @@ body{
 /* footer section */
 .footer-container{
     width: 100%;
-    max-height: 60vh;
+    max-height: 65vh;
     background: #0B0223;
-    
 }
 .footer-section{
     width: 50%;
     margin: auto;
-    /* margin-bottom: 0px; */
 }
 .footer-title{
     display: flex;
@@ -330,8 +305,6 @@ body{
 .footer-icons button{
     margin: 10px;
     padding: 3px;
-    /* background: none;
-    border: none; */
 }
 .footer-text{
     text-align: center;
@@ -347,8 +320,7 @@ body{
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    padding: 50px 0;
-    
+    padding: 50px 0    
 }
 /*................
 Responsive for SMALL device
@@ -565,6 +537,9 @@ Responsive for MEDIUM device
     .footer-detail{
         grid-template-columns: repeat(3, 1fr);
         margin-left: 50px;
+    }
+    .footer-detail p{
+        margin-bottom: 25px;
     }
     .footer-text{
         display: grid;
